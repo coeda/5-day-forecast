@@ -22,7 +22,7 @@ getWeatherData.addEventListener('click', function(event) {
             item.appendChild(title);
             return item;
           });
-          console.log(weather[1]);
+          console.log(weather);
           items.forEach(view.appendChild.bind(view));
           updateContainer(weather.city, container);
         });
